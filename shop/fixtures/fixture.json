@@ -1,0 +1,22 @@
+[
+    {
+        "model": "shop.category",
+        "pk": 1,
+        "fields": {
+            "title": "Electronics",
+            "description": "Devices and gadgets"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "title": "Smartphone",
+            "description": "A high-end smartphone.",
+            "category": 1,
+            "price": "699.99",
+            "image_url": "https://example.com/image.jpg",
+            "added_at": "2024-12-05T00:00:00Z"
+        }
+    }
+]
