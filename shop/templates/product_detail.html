@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{{ product.title }}</h1>
+<img src="{{ product.image.url }}" alt="{{ product.title }}" style="max-width: 100%; height: auto;">
+<p>{{ product.description }}</p>
+<p><strong>Price:</strong> {{ product.price }}$</p>
+<a href="{% url 'products_list' %}">Back to Products</a>
+{% endblock %}
